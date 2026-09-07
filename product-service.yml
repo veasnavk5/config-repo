@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/service_discovery
     username: postgres
-    password: 112233
+  password: '{cipher}9e080c349292837f33497875ea66fa2c9808161f1db6c01f5150254f8767b57c'
   jpa:
     hibernate:
       ddl-auto: update
